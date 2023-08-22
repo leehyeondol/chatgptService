@@ -11,6 +11,7 @@ from datetime import date
 
 running = True
 
+
 mydb = mysql.connector.connect(
     host=os.getenv('MYSQL_HOST'),
     port=os.getenv('MYSQL_PORT'),
